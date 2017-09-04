@@ -1,5 +1,6 @@
 # Gorgeous-clock
 通过使用canvas实现绚丽的时钟效果
+项目预览地址： https://2016messi.github.io/Gorgeous-clock/
 
 ## 页面结构部分
 ```
