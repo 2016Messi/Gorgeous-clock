@@ -29,7 +29,7 @@ const colors = ["#33B5E5","#0099CC","#AA66CC","#9933CC","#99CC00","#669900","#FF
 
     window.onload=function(){
 
-        var canvas=document.getElementById("sevenColors");
+        var canvas=document.getElementById("canvas");
         var context=canvas.getContext("2d");
         canvas.width=WINDOW_WIDTH;
         canvas.height=WINDOW_HEIGHT;
