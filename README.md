@@ -41,3 +41,20 @@
 ```
 
 ### Gorgeous-clock.js相当于主程序部分
+
+```
+window.onload=function(){
+
+    var canvas=document.getElementById("sevenColors");
+    var context=canvas.getContext("2d");
+    canvas.width=WINDOW_WIDTH;
+    canvas.height=WINDOW_HEIGHT;
+
+    curShowTimeSeconds = getCurrentShowTimeSeconds();
+
+    setInterval(function(){
+        render(context);
+        update();
+    },50);
+};
+```
