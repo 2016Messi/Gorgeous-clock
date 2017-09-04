@@ -3,8 +3,8 @@
 
 ## 页面结构部分
 ```
-<body style="height:100%;">
-    <canvas id="canvas" style="height:100%;"></canvas>
+<body>
+    <canvas id="canvas"></canvas>
     <script src="js/digit.js"></script>
     <script src="js/Gorgeous-clock.js"></script>
 </body>
@@ -45,7 +45,7 @@
 ```
 window.onload=function(){
 
-    var canvas=document.getElementById("sevenColors");
+    var canvas=document.getElementById("canvas");
     var context=canvas.getContext("2d");
     canvas.width=WINDOW_WIDTH;
     canvas.height=WINDOW_HEIGHT;
